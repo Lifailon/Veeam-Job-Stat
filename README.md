@@ -1,6 +1,8 @@
 # Veeam-Job-Stat
 Модуль **[Veeam-Job-Stat.psm1](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Veeam-Job-Stat/Veeam-Job-Stat.psm1)** для сбора и вывода статистики всех заданий резервной копии в **CustomObject**.
 
+![Image alt](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Screen/Module.jpg)
+
 **Property:** \
 **EnabledJob** - выключено/выключено задание \
 **JobName** - Имя задания \
@@ -21,6 +23,8 @@
 
 > Основывался на **[BR-Check-SLA](https://github.com/VeeamHub/powershell/tree/master/BR-Check-SLA)** из официального репозитория **[VeeamHub](https://github.com/VeeamHub)**, с целью миниммизировать код и переработать вывод.
 
-![Image alt](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Screen/Module.jpg)
+## Скрипт [Veeam-Job-Stat-Report](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Veeam-Job-Stat-Report/Veeam-Job-Stat-Report.ps1) для отправки ежедневного отчета на почту.
+
 ![Image alt](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Screen/Report-Script.jpg)
+
 ![Image alt](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Screen/Report-Message.jpg)
