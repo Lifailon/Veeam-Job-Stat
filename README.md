@@ -1,4 +1,7 @@
 # Veeam-Job-Stat
+
+![Image alt](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Screen/Logo.jpg)
+
 Модуль **[Veeam-Job-Stat.psm1](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Veeam-Job-Stat/Veeam-Job-Stat.psm1)** для сбора и вывода статистики всех заданий резервной копии в **CustomObject**.
 
 ![Image alt](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Screen/Module.jpg)
