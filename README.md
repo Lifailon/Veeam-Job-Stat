@@ -22,7 +22,9 @@
 **BackupSize** - **Размер последней резервной копии**
 
 **Зависимости:** \
-**Модуль Veeam.Backup.PowerShell**, который идет в составе с дистрибутивом **Veeam Backup & Replication**. Для локального запуска модуля PowerShell на машине, требуется УЗ с правами доступа к консоли Veeam (**Connect-VBRServer** в модуле не используется).
+* **Модуль Veeam.Backup.PowerShell**, который идет в составе с дистрибутивом **Veeam Backup & Replication**.
+* Для локального запуска модуля PowerShell на машине, требуется УЗ с правами доступа к консоли Veeam
+* Для удаленного запуска необходимо добавить аудентификацию через **Connect-VBRServer** (в модуле не используется). Сам модуль можно установить из репозитория **Chocolatey** 
 
 > Основывался на **[BR-Check-SLA](https://github.com/VeeamHub/powershell/tree/master/BR-Check-SLA)** из официального репозитория **[VeeamHub](https://github.com/VeeamHub)**, с целью миниммизировать код и переработать вывод.
 
