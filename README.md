@@ -28,7 +28,9 @@
 
 ## Скрипт [Veeam-Job-Stat-Report](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Veeam-Job-Stat-Report/Veeam-Job-Stat-Report.ps1) для отправки ежедневного отчета на почту.
 
-Встроен модуль [ConvertFrom-XLSX](https://github.com/Lifailon/psModules#convertfrom-xlsx) для создания Excel-таблицы
+* Встроен модуль [ConvertFrom-XLSX](https://github.com/Lifailon/psModules#convertfrom-xlsx) для создания Excel-таблицы
+* Создается директория в корне диска `С:\Veeam-Job-Stat-Log` (в случае ее отсутствия) для хранения ежедневных Excel-отчетов по дате.
+* При первом запуске скрпита необходимо заполнить **Credential** для авторизации пользователем, из под которого будет происходить отправка почты. Файл с кредами будет сохранен в файл **Cred-Email.xml**, который располагается рядом с скриптом.
 
 ![Image alt](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Screen/Report-Script.jpg)
 
