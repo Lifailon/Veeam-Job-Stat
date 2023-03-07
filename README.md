@@ -21,9 +21,14 @@
 **BackupType** - **Тип последней резервной копии (Full/Increment)** \
 **BackupSize** - **Размер последней резервной копии**
 
+**Зависимости:** \
+**Модуль Veeam.Backup.PowerShell**, который идет в составе с дистрибутивом **Veeam Backup & Replication**. Для локального запуска модуля PowerShell на машине, требуется УЗ с правами доступа к консоли Veeam (**Connect-VBRServer** в модуле не используется).
+
 > Основывался на **[BR-Check-SLA](https://github.com/VeeamHub/powershell/tree/master/BR-Check-SLA)** из официального репозитория **[VeeamHub](https://github.com/VeeamHub)**, с целью миниммизировать код и переработать вывод.
 
 ## Скрипт [Veeam-Job-Stat-Report](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Veeam-Job-Stat-Report/Veeam-Job-Stat-Report.ps1) для отправки ежедневного отчета на почту.
+
+Встроен модуль [ConvertFrom-XLSX](https://github.com/Lifailon/psModules#convertfrom-xlsx) для создания Excel-таблицы
 
 ![Image alt](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Screen/Report-Script.jpg)
 
