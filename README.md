@@ -40,3 +40,5 @@
 ![Image alt](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Screen/Report-Script.jpg)
 
 ![Image alt](https://github.com/Lifailon/Veeam-Job-Stat/blob/rsa/Screen/Report-Message.jpg)
+
+По вопросам и предложениям **Telegram: @kup57**
